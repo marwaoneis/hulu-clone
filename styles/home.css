@@ -1,0 +1,45 @@
+.background-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90%;
+  width: 100%;
+  background-size: cover;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 100%;
+  border-bottom: 0;
+  height: 74px;
+}
+
+.logo {
+  position: absolute;
+  padding-left: 40px;
+  display: flex;
+  top: 35%;
+  height: 24%;
+}
+
+.menu-bar {
+  position: absolute;
+  display: flex;
+  right: 0;
+  padding-right: 40px;
+  top: 35%;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-bar > .login-btn {
+  font-family: "Graphik Web", sans-serif;
+  display: flex;
+  padding: 0 16px;
+  color: #a8afbd;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
