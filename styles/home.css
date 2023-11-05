@@ -446,17 +446,141 @@ h4 {
   font-weight: bold;
 }
 
-.pricings .pricing-plans .pricing-head {
+.pricing-plans-start,
+.pricing-plans,
+.pricing-plans-end {
+  margin-top: 30px;
+  width: 70%;
   display: flex;
-  flex-direction: row;
+  padding-top: 30px;
+  border-top: 1px solid hsla(0, 0%, 78.4%, 0.4);
 }
 
-.plans-bundle h3 {
+.pricing-plans-start {
+  justify-content: center;
+}
+
+.pricing-plans {
+  justify-content: space-between;
+}
+
+.plans-bundle .hulu-logo-bundle {
+  width: 45%;
+  margin-top: 17px;
+}
+
+.plans-bundle {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricings .pricing-plans-start .pricing-head {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  width: 95%;
+}
+
+.plans-bundle .plans-bundle-title {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
-  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0;
+  font-size: 12px;
 }
+
+.pricing-head-sec {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.pricing-head-sec .plans-bundle .most-popular1,
+.most-popular2 {
+  padding: 9px 5px;
+  font-size: 8px;
+  border-radius: 100px;
+  color: #16181d;
+  height: 30px;
+  width: 130px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.most-popular1 {
+  background: #1ce783;
+}
+
+.plans-bundle .p-trial {
+  font-size: 13px;
+  color: #bec0c2;
+  line-height: 1;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.plans-bundle .hulu-ads h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 13px;
+  line-height: 1.32;
+  letter-spacing: 0;
+}
+
+.plans-bundle .price-btn p {
+  font-size: 13px;
+  height: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: none;
+  line-height: 1;
+  background-color: #fff;
+  color: #000;
+  padding: 14px 70px;
+}
+
+.pricing-plans .pricing-title,
+.bundles {
+  font-size: 13px;
+  line-height: 1.36;
+  letter-spacing: 0;
+}
+
+.pricing-plans .pricing-title {
+  width: 50%;
+  text-align: left;
+}
+
+.pricing-plans .bundles {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pricing-plans-end {
+  border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
+  padding-bottom: 30px;
+}
+
+.pricing-plans-end .pricing-end {
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: 1.46;
+  text-transform: none;
+  text-align: left;
+}
+
 /* Footer */
 .footer {
   background: #ebedf2;
