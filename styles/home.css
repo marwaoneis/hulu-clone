@@ -484,7 +484,6 @@ h4 {
 
 .plans-bundle .hulu-logo-bundle {
   width: 45%;
-  margin-top: 17px;
 }
 
 .plans-bundle {
@@ -561,7 +560,8 @@ input:checked + .slider:before {
   width: 95%;
 }
 
-.plans-bundle .plans-bundle-title {
+.plans-bundle .plans-bundle-title1,
+.plans-bundle-title2 {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
@@ -569,6 +569,12 @@ input:checked + .slider:before {
   line-height: 1.4;
   letter-spacing: 0;
   font-size: 12px;
+}
+
+.plans-bundle-title1 {
+  padding-bottom: 10px;
+  position: relative;
+  top: -8px;
 }
 
 .pricing-head-sec {
@@ -649,9 +655,26 @@ input:checked + .slider:before {
 .pricing-plans-end {
   border-bottom: 1px solid hsla(0, 0%, 78.4%, 0.4);
   padding-bottom: 30px;
+  place-content: center;
+  cursor: pointer;
 }
 
-.pricing-plans-end .pricing-end {
+.pricing-plans-end .pricing-title {
+  display: flex;
+}
+
+.pricing-plans-end .pricing-title p {
+  width: 120px;
+}
+
+.pricing-plans-end .pricing-title img {
+  position: relative;
+  width: 17%;
+  height: 50%;
+  top: 8px;
+}
+
+.pricing-plans .pricing-end {
   font-size: 10px;
   letter-spacing: 0;
   line-height: 1.46;
@@ -718,7 +741,8 @@ input:checked + .slider:before {
   }
 
   .header .logo {
-    width: 200px;
+    width: 45px;
+    height: auto;
   }
 
   .header .header-content {
@@ -741,6 +765,43 @@ input:checked + .slider:before {
 
   .header-content .hulu-disney {
     width: auto;
+  }
+
+  .pricing-plans-start {
+    flex-wrap: wrap;
+  }
+
+  .pricing-head-sec {
+    margin-top: 15px;
+  }
+
+  .pricings .pricing-plans-start .pricing-head {
+    width: 100%;
+    place-content: center;
+    flex-wrap: wrap;
+  }
+
+  .pricing-head-sec .plans-bundle .most-popular1,
+  .most-popular2 {
+    padding: 5px 5px;
+    font-size: 8px;
+    height: 20px;
+    width: auto;
+  }
+
+  .plans-bundle .p-trial {
+    font-size: 9px;
+    margin-bottom: 5px;
+  }
+
+  .plans-bundle .hulu-ads h3 {
+    font-size: 12px;
+  }
+
+  .plans-bundle .price-btn p {
+    font-size: 10px;
+    height: 30px;
+    padding: 10px 10px;
   }
 
   .btn1 {
