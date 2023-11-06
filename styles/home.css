@@ -653,6 +653,10 @@ h4 {
 }
 
 @media (max-width: 768px) {
+  .header {
+    height: 770px;
+  }
+
   .header .logo {
     width: 200px;
   }
@@ -660,6 +664,7 @@ h4 {
   .header .header-content {
     text-align: center;
     padding: 0 20px;
+    flex-direction: column;
   }
 
   .header .header-text-1 {
@@ -668,6 +673,18 @@ h4 {
 
   .header .header-text-2 {
     display: none;
+  }
+
+  .header-content .hulu-disney-espn {
+    width: auto;
+  }
+
+  .header-content .hulu-disney {
+    width: auto;
+  }
+
+  .btn1 {
+    width: 100%;
   }
 
   .sub-header {
@@ -692,16 +709,24 @@ h4 {
   }
 
   .sub-text {
-    font-size: 20px;
+    font-size: 10px;
   }
 
   .categories .covers {
     grid-template-columns: 1fr;
   }
 
+  .categories .live-btn {
+    width: auto;
+  }
+
+  .live-sports-logos {
+    width: 65%;
+  }
+
   .live-sports {
-    background: url("../img/live-sports-small.jpg") no-repeat center center /
-      cover;
+    background: url("../assets/images/live-sports-small.jpg") no-repeat center
+      center / cover;
   }
 
   .live-sports-content {
